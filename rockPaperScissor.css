@@ -1,0 +1,100 @@
+body{
+  background-color: black;
+ 
+}
+.para{
+  color:white;
+  font-size: 30px;
+  font-family:Arial;
+  font-weight:550;
+}
+img{
+  width:50px;
+  background-color:rgb(20, 20, 44);
+  border-radius:26px;
+  padding:5px;
+}
+.rock,.paper,.scissor{
+  width:120px;
+  height:120px;
+  background:transparent;
+  border:3px solid white;
+  border-radius:50%;
+  margin-left:10px;
+}
+.win{
+  color: white;
+  font-family: Arial;
+  font-weight:500;
+}
+.js-you{
+  font-size:30px;
+  font-weight: 800;
+  color:white;
+  height:50px;
+  margin-left:30px;
+  
+}
+.auto, .reset{
+  padding:10px;
+  font-family: Arial;
+  font-weight:600;
+  margin-left:5px;
+  background-color: rgb(18, 18, 64);
+  color:white;
+}
+.usercomputer{
+  color:white;
+  margin-top:60px;
+  max-width:400px;
+}
+.usercomputer img{
+  margin-right:15px;
+  margin-left: 15px;
+
+
+}
+.js-comfirm-message{
+  color:white;
+  background-color: rgb(34, 33, 33);
+  font-family: Arial;
+  font-weight: 500;
+  font-size:larger;
+  padding:10px;
+  max-width:500px;
+}
+.js-yes, .js-no {
+  padding:5px 10px;
+  margin:3px;
+  border:none;
+  background-color: rgb(251, 251, 251);
+  color:black;
+  font-size:large;
+  border-radius:5px;
+}
+.js-yes:hover {
+  background-color:rgb(189, 4, 4);
+}
+.js-no:hover {
+  background-color: rgb(0, 149, 0);
+}
+/*watch styling */
+.watch{
+  color:white;
+  background-color: rgb(21, 21, 64);
+  display:inline-block;
+  margin-right:30px;
+  height: 100px;
+  width:100px;
+  text-align: center;
+  border-radius:50px;
+  border:none;
+
+}
+.js-stop-watch, .js-reset-watch,.js-start-watch{
+  background-color: yellow;
+  padding:10px 15px;
+  margin-right:5px;
+  font-weight: bold;
+  width:80px;
+}
